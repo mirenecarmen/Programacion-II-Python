@@ -62,5 +62,13 @@ print(diccionario)
 # eliminar diccionario
 del diccionario
 
+# repaso diccionarios
 
+diccionarioNuevo = {'Azul','rojo','blue','yellow'}
+print(diccionarioNuevo)
 
+# como eliminar un diccionario
+del (diccionarioNuevo['Azul'])
+
+# los diccionarios pueden almacenar diferentes tipos de datos
+diccionario2 = {'Ariel':{'Edad':40,'altura':1.83}, 'osvaldo':[45,1.85]}
